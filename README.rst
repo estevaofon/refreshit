@@ -42,6 +42,9 @@ Loading state
 A progress bar
 
 .. code-block:: python
+    
+    from refreshit import uprint
+    from time import sleep
 
     n = 20
     squares = [u"\u25A0"*x+" "+"{:.0f}".format((x/(n-1))*100)+"%" for x in range(n)]
