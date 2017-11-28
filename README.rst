@@ -12,6 +12,8 @@ Setup
 Code sample
 -----
 
+Refreshing some text
+
 .. code-block:: python
 
     from refreshit import uprint
