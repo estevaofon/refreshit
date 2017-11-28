@@ -34,13 +34,13 @@ def example4():
     print()
 
 def example5():
-    squares = [u"\u25A0"*x for x in range(10)]
-    for i in range(3):
+    n = 20
+    squares = [u"\u25A0"*x+" "+"{:.0f}".format((x/(n-1))*100)+"%" for x in range(n)]
+    for i in range(2):
         for item in squares:
             uprint(item)
             sleep(0.1)
-    uprint("Complete\n")
-
+    print()
 
 example1()
 example2()

@@ -22,6 +22,8 @@ Code sample
     uprint("Explicit is better than implicit.\n")
     sleep(1)
 
+Loading state
+
 .. code-block:: python
 
     from refreshit import uprint
@@ -33,3 +35,15 @@ Code sample
             uprint(item)
             sleep(0.2)
     uprint("Complete\n")
+
+
+A progress bar
+
+.. code-block:: python
+    n = 20
+    squares = [u"\u25A0"*x+" "+"{:.0f}".format((x/(n-1))*100)+"%" for x in range(n)]
+    for i in range(2):
+        for item in squares:
+            uprint(item)
+            sleep(0.1)
+    print()
