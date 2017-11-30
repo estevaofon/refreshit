@@ -23,7 +23,7 @@ def example3():
         for item in load:
             uprint(item)
             sleep(0.2)
-    print()
+    uprint("Complete\n")
 
 def example4():
     load = ["\\","|", "/", "-"]
@@ -31,7 +31,7 @@ def example4():
         for item in load:
             uprint(item)
             sleep(0.2)
-    uprint("Complete\n")
+    print()
 
 def example5():
     n = 20
