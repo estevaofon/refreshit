@@ -26,7 +26,7 @@ def example3():
     print()
 
 def example4():
-    load = ["|", "/", "-", "\\"]
+    load = ["\\","|", "/", "-"]
     for i in range(3):
         for item in load:
             uprint(item)
