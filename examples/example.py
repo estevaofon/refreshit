@@ -31,7 +31,7 @@ def example4():
         for item in load:
             uprint(item)
             sleep(0.2)
-    print()
+    uprint("Complete\n")
 
 def example5():
     n = 20
