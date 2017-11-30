@@ -1,5 +1,5 @@
 refreshit
-===========
+=========
 A print to always print in the same line, refreshing the content
 
 Setup
@@ -10,7 +10,7 @@ Setup
     $ pip install refreshit
 
 Code sample
------
+-----------
 
 Refreshing some text
 
@@ -42,7 +42,7 @@ Loading state
 A progress bar
 
 .. code-block:: python
-    
+
     from refreshit import uprint
     from time import sleep
 
