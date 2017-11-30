@@ -8,7 +8,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(name='refreshit',
-      version='0.1',
+      version='0.2',
       description='A print to always print in the same line, refreshing the content',
       long_description=long_description,
       author='Estevao Fonseca',
